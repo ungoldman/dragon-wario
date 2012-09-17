@@ -1,0 +1,13 @@
+{
+  "name": "Dragon Wario",
+  "version": "0.0.1",
+  "description": "Choose Your Own Adventure!",
+  "main": "dw.js",
+  "scripts": {
+    "start": "node dw.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nate Goldman <nate@ngoldman.me>",
+  "license": "MIT",
+  "dependencies": {}
+}
