@@ -32,10 +32,11 @@ rl.question('What is your name?\n\n'+'> '.green, function(answer){
 function start() {
   clr();
   if (name == 'Wario' || name == 'wario') {
-    name = 'Wario'.rainbow.bold
+    name = 'Wario'.rainbow.bold;
     print('Yes, it\'s-a you, '.bold+name+'!\n\n'.bold);
+  } else {
+    name = name.green.bold;
   }
-  name = name.green.bold;
   print('Kinge\'s Castle.\n'.underline.bold);
   print('Ye Kinge:'.magenta.bold+' \n\n'+
     '"Greetings, '+name+'. \n\nThou hast arrived in mine kingdom at a grave time indeed. \n'+
