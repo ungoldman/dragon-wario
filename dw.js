@@ -13,13 +13,6 @@ rl = readline.createInterface({
   output: process.stdout
 });
 
-function pause(cb) {
-  rl.question('\n[ press enter to continue ]'.grey, function(ans){
-    clr();
-    cb();
-  });
-}
-
 clr();
 print('\nWelcome to '.white.bold+'Dragon Wario'.cyan.bold.underline+'!\n');
 
@@ -234,7 +227,12 @@ function clr() {
   print('\033[2J');
 }
 
-
+function pause(cb) {
+  rl.question('\n[ press enter to continue ]'.grey, function(ans){
+    clr();
+    cb();
+  });
+}
 
 function cleanStr(str, upper){
   if (upper) return (str + '').trim();
