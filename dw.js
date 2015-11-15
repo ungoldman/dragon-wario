@@ -162,7 +162,7 @@ function endgame() {
     ans = cleanStr(ans);
     if (ans == 'm' || ans == 'marry') {
       clr();
-      print('Suddenly, thou art married and the '+'Kinge'.magenta.bold+'.'+
+      print('Suddenly, thou art married and the '+'Kinge'.magenta.bold+'. '+
         'A winner is '.bold+name+'.\n'.bold);
       print('THE END'.underline.bold+'\n\n');
       process.exit(0);
