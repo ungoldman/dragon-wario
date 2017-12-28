@@ -1,15 +1,31 @@
 {
-  "name": "Dragon Wario",
-  "version": "0.0.1",
+  "name": "dragon-wario",
   "description": "Choose Your Own Adventure!",
-  "main": "dw.js",
-  "scripts": {
-    "start": "node dw.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "1.0.0",
   "author": "Nate Goldman <nate@ngoldman.me>",
-  "license": "MIT",
+  "bin": {
+    "dragon-wario": "./dw.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ungoldman/dragon-wario/issues"
+  },
   "dependencies": {
-    "colors": "~0.6.0-1"
+    "colors": "^1.1.2"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3",
+    "standard-version": "^4.2.0"
+  },
+  "homepage": "https://github.com/ungoldman/dragon-wario#readme",
+  "license": "MIT",
+  "main": "dw.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ungoldman/dragon-wario.git"
+  },
+  "scripts": {
+    "release": "standard-version",
+    "start": "node dw.js",
+    "test": "standard"
   }
 }

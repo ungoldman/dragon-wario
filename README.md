@@ -5,12 +5,8 @@ node's built-in [readline](http://nodejs.org/api/readline.html) module.
 
 ## How to Play
 
-* Make sure the latest version of [node.js](https://github.com/joyent/node/wiki/Installation) is installed.
-* Clone the repo, cd into the directory, then type:
-
-```sh
-$ npm install
-$ node dw.js
+```
+npx dragon-wario
 ```
 
 * Enjoy!
