@@ -15,8 +15,8 @@ npx dragon-wario
 
 ## Author
 
-[Nate Goldman](http://github.com/ngoldman)
+[Nate Goldman](http://github.com/ungoldman)
 
 ## License
 
-[MIT](http://ngoldman.mit-license.org/)
+MIT
