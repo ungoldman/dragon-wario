@@ -17,6 +17,8 @@ npx dragon-wario
 
 [Nate Goldman](http://github.com/ungoldman)
 
+Created Sep 17, 2012.
+
 ## License
 
 MIT
