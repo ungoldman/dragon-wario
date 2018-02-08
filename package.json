@@ -2,7 +2,7 @@
   "name": "dragon-wario",
   "description": "Choose Your Own Adventure!",
   "version": "1.0.0",
-  "author": "Nate Goldman <nate@ngoldman.me>",
+  "author": "Nate Goldman <ungoldman@gmail.com>",
   "bin": {
     "dragon-wario": "./dw.js"
   },
